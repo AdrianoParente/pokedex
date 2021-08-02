@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.cards-pokemon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    width: 45%;
+    border-radius: 20px;
+    height: 300px;
+    background-color: green;
+
+}
