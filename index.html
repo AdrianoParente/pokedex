@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,119 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
+
 <body onload="loadPokemon()">
-    <div class ="main-container">
-        <div class ="name-app">
+    <div id="main-container" class="main-container">
+        <div class="name-app">
             <p>Pokedex</p>
         </div>
         <div id="cards-pokemon" class="cards-pokemon">
-           
+
         </div>
     </div>
+    <div id="card-singlePokemon" class="card-singlePokemon">
+        <div id="top-section" class="top-section">
+            <div id="arrow" onclick="changeToMainSite()">
+                <img src="img/arrow-121-32.png">
+            </div>
+            <div class="singleName" id="name-pokemon">
+
+            </div>
+            <div id="different_types">
+
+            </div>
+
+        </div>
+        <div id="bottom-section" class="bottom-section">
+            <div class="big-image-pokemon-container">
+                <img src="" id="poke-picture" class="big-image-pokemon"></img>
+            </div>
+            <div class="navBar">
+                <div id="navItem1" onclick="changeToAbout()">About</div>
+                <div id="navItem2" onclick="changeToBaseStats()">Base Stats</div>
+            </div>
+            <div id="about-container" class="about-container">
+                <div class="about">
+                    <div>
+                        Weight
+                    </div>
+                    <div id="weight">
+
+                    </div>
+                </div>
+                <div class="about">
+                    <div>
+                        Height
+                    </div>
+                    <div id="height">
+
+                    </div>
+                </div>
+                <div class="about">
+                    <div>
+                        Abilities
+                    </div>
+                    <div id="abilities">
+
+                    </div>
+                </div>
+            </div>
+            <div id="baseStats" class="about-container">
+                <div class="about1">
+                    <div>
+                        HP
+                    </div>
+                    <div id="hp" class="progressbar">
+                        <div id="hp_sub"></div>
+                    </div>
+                </div>
+                <div class="about1">
+                    <div>
+                        Attack
+                    </div>
+                    <div id="attack" class="progressbar">
+                        <div id="attack_sub"></div>
+                    </div>
+                </div>
+                <div class="about1">
+                    <div>
+                        Defense
+                    </div>
+                    <div id="defense" class="progressbar">
+                        <div id="defense_sub"></div>
+                    </div>
+                </div>
+                <div class="about1">
+                    <div>
+                        Special-Attack
+
+                    </div>
+                    <div id="special-attack" class="progressbar">
+                        <div id="special-attack_sub"></div>
+                    </div>
+                </div>
+                <div class="about1">
+                    <div>
+                        Special-Defense
+                    </div>
+                    <div id="special-defense" class="progressbar">
+                        <div id="special-defense_sub"></div>
+                    </div>
+                </div>
+                <div class="about1">
+                    <div>
+                        Speed
+                    </div>
+                    <div id="speed" class="progressbar">
+                        <div id="speed_sub"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
 </body>
+
 </html>
